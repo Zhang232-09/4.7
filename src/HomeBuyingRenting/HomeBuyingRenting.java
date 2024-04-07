@@ -17,6 +17,7 @@ public class HomeBuyingRenting {
     private String homeDescription; /* Has details like ID, number of bedrooms, halls, kitchen, bathroom, galleries, 
                                     total area, type of property, price, build year, current status, etc.*/
     
+     
     private String homeAddress;
     private double homePrice;
     private String agentDetails; /* Has details like name, email, phone, etc. */
@@ -44,6 +45,16 @@ public class HomeBuyingRenting {
 
         // Complete the logic for the remainder of the program
 
+        System.out.println("\nPlease select a location from the list above:");
+        String selectedLocation = input.nextLine();
+
+        System.out.println("\nPlease enter your budget:");
+        double budget = input.nextDouble();
+        input.nextLine(); // Consume newline character
+
+        System.out.println("\nPlease enter the minimum required total area:");
+        double minArea = input.nextDouble();
+        input.nextLine(); // Consume newline character
 
 
 
@@ -52,3 +63,4 @@ public class HomeBuyingRenting {
 
     
 }
+
