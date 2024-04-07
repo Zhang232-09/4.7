@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /* The objective of the program is to get the customer details, then list the locations where homes are available.
  * Then ask them if they are interested in buying or renting a home. 
- * Then ask the user more details about the home they are interested in, like total area, number of bedrooms, and then the location.
+ * Then ask the user more details about the home they are interested in, like total area, their budget, and maybe even the location.
  * Once all the details are given, the program should display the list of homes that closely matche the customer's requirements.
  * Then, ask the customer if they would like a home showing. If yes, then ask the customer for the date of the showing.
  * Then display to the customer a confirmation of the home they chose, the date of showing, and the agent that will help them with the showing.
